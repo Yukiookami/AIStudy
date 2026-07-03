@@ -253,7 +253,7 @@ export function DashboardPage() {
             <Form.Item>
               <Space>
                 <Button htmlType="submit" type="primary">
-                  検索開始
+                  検索
                 </Button>
                 <Button onClick={handleSearchReset}>リセット</Button>
               </Space>
