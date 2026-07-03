@@ -1,0 +1,29 @@
+.app-page-layout {
+  min-height: 100vh;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding: 24px;
+  background: linear-gradient(180deg, #f5f7fb 0%, #e9eefb 100%);
+
+  &__card {
+    width: min(100%, 1480px);
+    padding: 40px 32px;
+    border-radius: 24px;
+    background-color: #ffffff;
+    box-shadow: 0 18px 50px rgba(15, 23, 42, 0.12);
+  }
+
+  &__header {
+    margin-bottom: 24px;
+    text-align: center;
+
+    .ant-typography {
+      margin-bottom: 8px;
+    }
+  }
+
+  &__content {
+    width: 100%;
+  }
+}
